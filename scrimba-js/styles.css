@@ -27,7 +27,9 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
+
 
 #increment-btn {
     background: rgb(116, 207, 240);
@@ -37,3 +39,6 @@ button {
     background: rgb(18, 74, 165);
 }
 
+#save-btn{
+    background-color: pink;
+}
