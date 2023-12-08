@@ -19,5 +19,16 @@ function increment() {
 function save(){
     let savedCount = count + ", "
     savedEl.innerHTML += savedCount
+    // reset count to 0 
+    count = 0 
+    //dosplay count in our dom 
+    updateNum.innerHTML = count
     console.log(savedCount)
+}
+
+//reset function that will clear all entries 
+function clearAll(){
+    savedEl.innerHTML = "All counts" + "";
+    count = 0
+    updateNum.innerHTML = count;
 }
